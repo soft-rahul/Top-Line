@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 /* Main component */
 import Main from "./components/Main";
 import Course from "./components/Course";
+import CourseYear from "./components/CourseYear";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Switch>
         <Route exact path="/" component={Main}></Route>
         <Route exact path="/courses" component={Course}></Route>
+        <Route exact path="/courses-year" component={CourseYear}></Route>
+        <Route exact path="/years" component={CourseYear}></Route>
       </Switch>
       <Footer />
     </>

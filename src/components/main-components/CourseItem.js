@@ -11,7 +11,7 @@ function CourseItem() {
                 <h2>BCA</h2>
             </div>
             <div className="course-card__button">
-                <Link to="/course-year">Select</Link>
+                <Link to="/courses-year">Select</Link>
             </div>
         </section>
     );
