@@ -1,0 +1,20 @@
+.global-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.2rem 0.4rem;
+    background-color:#eee;
+    position:sticky;
+    top:0;
+    z-index: 100;
+}
+
+.global-header a{
+    text-decoration: none;
+    color:#000;
+}
+
+.global-header a:hover{
+    text-decoration: underline;
+    color:cyan;
+}
