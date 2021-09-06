@@ -10,6 +10,8 @@ import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Course from "./components/Course";
 import CourseYear from "./components/CourseYear";
+import Syallbus from "./components/Syallbus";
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route exact path="/courses" component={Course}></Route>
         <Route exact path="/courses-year" component={CourseYear}></Route>
         <Route exact path="/years" component={CourseYear}></Route>
+        <Route exact path="/year-overview" component={Syallbus}></Route>
       </Switch>
       <Footer />
     </>

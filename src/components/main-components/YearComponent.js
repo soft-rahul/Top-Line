@@ -6,7 +6,7 @@ function YearComponent(props) {
                 <h2>Year {props.year}</h2>
             </div>
             <div className="year__button">
-                <Link to='/years'>Select</Link>
+                <Link to='/year-overview'>Select</Link>
             </div>
         </section>
     );
