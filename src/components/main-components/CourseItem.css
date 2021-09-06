@@ -1,0 +1,28 @@
+.course-card{
+    width:80%;
+    margin:1.5rem auto;
+    padding:1rem 0.5rem;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 1rem;
+
+}
+.course-card div{
+    padding:0.4rem 0;
+}
+
+.course-card__button{
+    background-color: rgb(238 238 238);
+    padding:1.5rem 1rem;
+    display: flex;
+}
+.course-card__button a{
+    display: block;
+    margin:auto;
+    padding:0.5rem 1rem;
+    background-color: #000;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 0.2rem;
+}
+
