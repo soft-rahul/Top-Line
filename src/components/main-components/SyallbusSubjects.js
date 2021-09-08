@@ -1,5 +1,5 @@
 import SubjectImage from '../../assets/image/subject.svg';
-
+import {Link} from "react-router-dom";
 function SyallbusSubjects(props) {
   return (
     <section className="syallbus-subjects">
@@ -11,10 +11,10 @@ function SyallbusSubjects(props) {
       </div>
       <div className="subject-button">
         <div className="button-learn">
-          <a href="">Learn</a>
+          <Link to="learning-section">Learn</Link>
         </div>
         <div className="button-material">
-            <a href=""> Material</a>
+            <Link to="material-section">Material</Link>
         </div>
       </div>
     </section>

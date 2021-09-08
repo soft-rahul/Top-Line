@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className="global-header">
       <div>
-        <a href="/">Home</a>
+        <a href="/"><i class="fas fa-home"></i></a>
       </div>
       <div>
         <a
@@ -16,7 +16,7 @@ function Header() {
           rel="noreferrer"
           target="_blank"
         >
-          GitHub
+        <i class="fab fa-github"></i>
         </a>
       </div>
     </header>

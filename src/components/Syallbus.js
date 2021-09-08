@@ -9,7 +9,7 @@ function Syallbus() {
               <img src={PdfImage} alt="pdf-image" width="200" height="200" />
           </div>
           <div className="pdf__button">
-            <a href="" traget="_blank" download="syallbus.pdf" >Download Syallbus</a>
+            <a href="/" traget="_blank" download="syallbus.pdf" >Download Syallbus</a>
           </div>
       
       </section>

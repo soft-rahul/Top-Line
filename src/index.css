@@ -1,13 +1,15 @@
+html {
+  font-size: 14px;
+}
 
-
-html{
-    font-size: 100%;
+body {
+    font-family: 'Roboto Mono', monospace;;
 }
 
 *,
 *::after,
-*::before{
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

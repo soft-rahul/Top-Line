@@ -2,19 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0.2rem 0.6rem;
-    background-color:#eee;
+    padding:0.4rem 0.6rem;
+    background-color:rgb(0, 0, 0);
     position:sticky;
     top:0;
     z-index: 100;
+    font-size: 1.25rem;
 }
 
 .global-header a{
     text-decoration: none;
-    color:#000;
-}
-
-.global-header a:hover{
-    text-decoration: underline;
-    color:cyan;
+    color:#fff;
 }

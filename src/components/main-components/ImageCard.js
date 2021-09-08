@@ -8,14 +8,14 @@ import './ImageCard.css';
 
 
 function ImageCard(props) {
-    console.table(props);
+   
   return (
     <section className="image-card card">
       <div className="card__image">
         <img src={props.img} width="200" height="200" alt="" />
       </div>
       <div className="card__data">
-        <h2>Heading 2</h2>
+        <h2>ueLdkj nksLrks</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quos aut
           architecto, amet nostrum ab. Possimus, exercitationem! Ipsum in

@@ -2,6 +2,9 @@ import CourseYearInfo from "./CourseYearInfo";
 import YearComponent from "./YearComponent";
 import './CourseYearPage.css';
 function CourseYearPage() {
+
+
+
     return(
         <>
         <CourseYearInfo/>
