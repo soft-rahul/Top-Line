@@ -15,7 +15,7 @@ function ImageCard(props) {
         <img src={props.img} width="200" height="200" alt="" />
       </div>
       <div className="card__data">
-        <h2>ueLdkj nksLrks</h2>
+        <h2></h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quos aut
           architecto, amet nostrum ab. Possimus, exercitationem! Ipsum in
