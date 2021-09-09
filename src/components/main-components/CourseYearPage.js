@@ -8,9 +8,12 @@ function CourseYearPage() {
     return(
         <>
         <CourseYearInfo/>
+        <div className="not-available">
         <YearComponent year="I"/>
         <YearComponent year="II"/>
-        <YearComponent year="III"/>
+
+        </div>
+        <YearComponent  url="/year-overview" year="III"/>
         </>
     );
 }

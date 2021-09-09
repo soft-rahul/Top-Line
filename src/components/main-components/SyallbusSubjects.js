@@ -11,11 +11,11 @@ function SyallbusSubjects(props) {
       </div>
       <div className="subject-button">
         <div className="button-learn">
-          <Link to="learning-section">Learn</Link>
+          <Link to={props.url}>Learn</Link>
         </div>
-        <div className="button-material">
+        {/* <div className="button-material">
             <Link to="material-section">Material</Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );
