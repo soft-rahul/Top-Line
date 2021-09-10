@@ -1,0 +1,45 @@
+.intro{
+    padding:1rem 0 ;
+    margin:1rem 0;
+}
+
+.intro > div{
+    padding:1rem;
+}
+
+.intro .intro__image{
+    text-align: center;
+}
+
+
+
+@media screen and (min-width:700px) {
+    .intro{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:1rem 1.5rem;
+        
+    }
+}
+.course-wrapper{
+    padding:1rem 0.2rem;
+    margin:1rem 0;
+}
+@media screen and (min-width:800px){
+    .course-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,auto);
+        gap:1rem;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .course-wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,auto);
+        gap:1rem;
+    }
+}

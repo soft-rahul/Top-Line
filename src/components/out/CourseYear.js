@@ -1,4 +1,4 @@
-import CourseYearPage from "./main-components/CourseYearPage";
+import CourseYearPage from "./CourseYearPage";
 
 export default function CourseYear(props) {
     console.log(props);

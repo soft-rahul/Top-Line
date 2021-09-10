@@ -1,4 +1,4 @@
-import LearningContent from "./main-components/LearningContent";
+import LearningContent from "./LearningContent";
 
 function LearningSection() {
     return(

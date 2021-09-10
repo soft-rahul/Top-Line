@@ -1,5 +1,5 @@
 
-import CourseItem from './main-components/CourseItem';
+import CourseItem from './CourseItem';
 
 export default function Course() {
     return(

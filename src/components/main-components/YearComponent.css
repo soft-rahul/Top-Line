@@ -1,0 +1,23 @@
+.year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  background: rgb(255 255 255);
+  border-radius: 1rem;
+  border: 1px solid rgb(236 239 241);
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+.year > div {
+  padding: 1rem;
+}
+.year__button a {
+  display: block;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.2rem;
+}

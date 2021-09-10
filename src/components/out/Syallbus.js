@@ -1,5 +1,5 @@
 import PdfImage from "../assets/image/download.svg";
-import SyallbusSubjects from "./main-components/SyallbusSubjects";
+import SyallbusSubjects from "./SyallbusSubjects";
 import "./Syallbus.css";
 function Syallbus() {
   const bcaFinalYear = {
