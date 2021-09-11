@@ -4,7 +4,7 @@
 
 // images for home page ...
 import Intro from "./assets/image/what-is-this.svg";
-import IntroTwo from "./assets/image/lets-start-exploring.svg";
+import IntroTwo from "./assets/ui-images/pageTwo-ui-second.svg";
 import HeroOne from "./assets/ui-images/hero-one.png";
 import HeroTwo from "./assets/ui-images/hero-two.png";
 

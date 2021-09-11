@@ -23,7 +23,7 @@ function BcaFirstYear() {
               <img src={PdfImage} width="200" height="200" alt="" />
             </div>
             <div className="button btn">
-              <a href={PdfOne} target="_blank" download="bca-first-year.pdf">
+              <a rel="noreferrer" href={PdfOne} target="_blank" download="bca-first-year.pdf">
                 Download Syllabus
               </a>
             </div>
