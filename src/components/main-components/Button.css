@@ -13,3 +13,10 @@
     text-decoration: none;
     border-radius: 0.2rem;
 }
+.section-btn a:hover,
+.section-btn a:active{
+    background-color: #fff;
+    color:#000;
+    outline: 1px solid black;
+    outline-offset: 1px;
+}

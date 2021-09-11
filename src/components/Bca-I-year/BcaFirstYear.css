@@ -1,0 +1,46 @@
+.download__syllabus,
+.subject__section {
+  text-align: center;
+}
+.download__syllabus > div {
+  padding: 1rem 0;
+}
+.download__syllabus .button,
+.button__learn {
+  background-color: rgb(238 238 238);
+  padding: 1.5rem 1rem;
+  display: flex;
+}
+
+.button a ,
+.button__learn a{
+  display: block;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.2rem;
+}
+
+.subject__wrapper{
+    margin:2rem 0;
+    padding:1rem;
+}
+
+@media screen and (min-width:700px) {
+    .subject__wrapper{
+        display: grid;
+        gap:2rem 1rem;
+        place-content: center;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .subject__wrapper{
+        
+        grid-template-rows: repeat(auto-fill,auto);
+        grid-template-columns: repeat(3,1fr);
+    }
+}

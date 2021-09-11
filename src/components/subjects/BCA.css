@@ -6,6 +6,9 @@
 .bca__intro > div{
     padding: 1.5rem 0;
 }
+.bca__content > *{
+    padding:0.5rem 0;
+}
 
 .bca__image{
     text-align: center;

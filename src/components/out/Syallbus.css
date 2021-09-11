@@ -1,5 +1,5 @@
-.syallbus-pdf,
-.syallbus-subjects{
+.syallbus__pdf,
+.syallbus__subjects{
     width:80%;
     margin:2rem auto;
     padding:2rem 0.5rem;
@@ -7,7 +7,7 @@
     border-radius: 1rem;
     text-align: center;
 }
-.syallbus-pdf > div,
+.syallbus__pdf > div,
 .syallbus-subjects > div{
     padding:1rem 0;
 }

@@ -1,0 +1,19 @@
+.coming__soon{
+    min-height: 100vh;
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coming__soon-wrapper > div{
+    padding:1.5rem 0;
+}
+.coming__soon-wrapper .content{
+    background-color: #eee;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+}
+.content > *{
+    padding:0.3rem 0;
+}

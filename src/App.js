@@ -12,12 +12,13 @@ import PageTwo from "./PageTwo";
 
 // subject wise import
 import BCA from "./components/subjects/BCA";
+  import BcaFirstYear from "./components/Bca-I-year/BcaFirstYear";
 import BA from "./components/subjects/BA";
 import BCOM from "./components/subjects/BCOM";
 import BScBio from "./components/subjects/BScBio";
 import BScMath from "./components/subjects/BScMath";
 import BBA from "./components/subjects/BBA";
-
+import Coming from './components/main-components/Coming';
 import { Switch, Route } from "react-router-dom";
 
 function App() {
@@ -30,11 +31,17 @@ function App() {
         </Route>
         <Route path="/course-list" component={PageTwo} ></Route>
         <Route path="/BCA" component={BCA} ></Route>
+        <Route path="/bca-first-year" component={BcaFirstYear} ></Route>
+
         <Route path="/BA" component={BA} ></Route>
         <Route path="/BCOM" component={BCOM} ></Route>
         <Route path="/BSc-Bio" component={BScBio} ></Route>
         <Route path="/BSc-Math" component={BScMath} ></Route>
         <Route path="/BBA" component={BBA} ></Route>
+
+        <Route path="/coming-soon" component={Coming} ></Route>
+
+
         
         
       </Switch>

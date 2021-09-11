@@ -20,7 +20,7 @@ export default function Main() {
       <section className="hero-page">
         <div className="hero__content">
           <h1>
-            Top <span className="special">Learn</span>{" "}
+            Top <span className="veryspecial">Learn</span>{" "}
           </h1>
           <p>TopLearn is a free educational plateform for college students</p>
         </div>

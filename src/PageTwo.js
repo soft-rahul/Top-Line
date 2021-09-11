@@ -20,11 +20,11 @@ function PageTwo() {
       </div>
       <div className="course-wrapper">
         <CourseItem  url="/BCA" title="BCA" />
-        <CourseItem url="/BA" title="BA" />
-        <CourseItem  url="/BCOM" title="BCOM" />
-        <CourseItem url="/BSc-Bio" title="BSc(Bio)" />
-        <CourseItem url="/BSc-Math" title="BSc(Math)" />
-        <CourseItem url="/BBA" title="BBA" />
+        <CourseItem url="/coming-soon" title="BA" />
+        <CourseItem  url="/coming-soon" title="BCOM" />
+        <CourseItem url="/coming-soon" title="BSc(Bio)" />
+        <CourseItem url="/coming-soon" title="BSc(Math)" />
+        <CourseItem url="/coming-soon" title="BBA" />
       </div>
     </section>
   );

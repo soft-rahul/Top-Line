@@ -64,9 +64,9 @@ function BCA() {
       </div>
 
       <section className="year__section">
-        <YearComponent year="I" url="somewhere in future" />
-        <YearComponent year="II" url="somewhere in future" />
-        <YearComponent year="III" url="somewhere in future" />
+        <YearComponent year="I" url="/bca-first-year" />
+        <YearComponent year="II" url="/coming-soon" />
+        <YearComponent year="III" url="/coming-soon" />
         
         
     </section>
